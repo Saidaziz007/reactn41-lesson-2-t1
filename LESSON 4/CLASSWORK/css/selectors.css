@@ -1,0 +1,65 @@
+/* * {
+  color: red;
+}
+
+.box-title {
+  color: blue;
+}
+
+h1 {
+  color: green;
+} */
+
+/* .box p {
+  color: red;
+}
+
+.box h2 {
+  color: blue;
+}
+
+body * {
+  color: yellow;
+} */
+
+/* .box > p {
+  color: red;
+}
+
+.box > h2 {
+  color: green;
+} */
+
+/* .box-child-text + .box-child {
+  background-color: yellow;
+} */
+
+/* .box-child-text ~ .box-child {
+  background-color: yellow;
+} */
+
+/* .box > .box-child > h2 {
+  color: red;
+} */
+
+[href="about.html"] {
+  font-size: 50px;
+  background-color: red;
+  color: black;
+}
+
+.contact-link {
+  background-color: black;
+  color: white;
+}
+
+[href="contact.html"] {
+  font-size: 60px;
+  background-color: yellow;
+  color: green;
+}
+
+.about-link {
+  background-color: blue;
+  color: aqua;
+}

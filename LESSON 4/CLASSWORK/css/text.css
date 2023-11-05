@@ -1,0 +1,62 @@
+.text-decoration {
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+  /* text-decoration: overline; */
+  text-decoration: none;
+}
+
+.text-transform {
+  /* text-transform: capitalize; */
+  text-transform: uppercase;
+  /* text-transform: lowercase; */
+}
+
+.text {
+  text-indent: 50px;
+  /* text-indent: 100px; */
+  /* text-indent: 150px; */
+
+  word-spacing: 10px;
+  /* word-spacing: 20px; */
+  /* word-spacing: 30px; */
+
+  letter-spacing: 5px;
+  /* letter-spacing: 15px; */
+  /* letter-spacing: 25px; */
+
+  line-height: 1.5;
+  /* line-height: 3; */
+  /* line-height: 5; */
+
+  /* line-height: 30px; */
+  /* line-height: 50px; */
+  /* line-height: 100px; */
+
+  opacity: 0.5;
+  /* opacity: 0.2; */
+  /* opacity: 0; */
+}
+
+.text::first-letter {
+  font-size: 50px;
+  color: red;
+}
+
+.text::first-line {
+  background-color: yellow;
+}
+
+.one-row {
+  /* white-space: wrap; */
+  white-space: nowrap;
+}
+
+.shadow {
+  /* text-shadow: 5px 10px red; */
+  /* text-shadow: -5px -10px red; */
+  /* text-shadow: 5px 10px 5px red; */
+  /* text-shadow: 5px 10px 10px red; */
+  /* text-shadow: 0 0 10px red; */
+  /* text-shadow: 0 0 10px red; */
+  text-shadow: 5px 10px 15px red, -5px -10px 15px yellow;
+}

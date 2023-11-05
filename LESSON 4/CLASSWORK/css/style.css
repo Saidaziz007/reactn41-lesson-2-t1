@@ -1,0 +1,13 @@
+/* external */
+
+.external {
+  font-size: 70px;
+  color: blue;
+  background-color: black;
+}
+
+.overriding {
+  font-size: 80px;
+  color: aqua;
+  background-color: green;
+}

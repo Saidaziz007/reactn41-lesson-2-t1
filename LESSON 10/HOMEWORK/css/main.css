@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 70px;
+    /* border: 1px solid; */
+    background: white;
+}
+
+.header-logo{
+    margin-left: 99px;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    margin-left: 510px;
+}
+
+.nav-item{
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.log-in-btn{
+    display: flex;
+    align-items: center;
+    width: 64px;
+    height: 25px;
+    border: 1px solid grey;
+    text-decoration: none;
+    color: black;
+    margin-left: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-btn{
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 25px;
+    border: 1px solid grey;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lang-btn{
+    display: flex;
+    align-items: center;
+    width: 43px;
+    height: 25px;
+    border: 1px solid grey;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.log-in-btn:hover{
+    background-color: #01BAB3;
+    color: white;
+}
+
+.create-btn:hover{
+    background-color: #01BAB3;
+    color: white;
+}
+
+.lang-btn:hover{
+    background-color: #01BAB3;
+    color: white;
+}
+
+.nav-hr{
+    color: #D9D9D9;
+}
+
+.hero{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F4F8FA;
+    height: 1020px;
+    border: 1px solid #D9D9D9;
+}
+
+.hero-1{
+    width: 490px;
+    height: 810px;
+    background-color: white;
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04), 0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+}
+
+.hero-1-logo{
+    width: 115px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 187px;
+}
+
+.hero-title{
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Segoe UI;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 95px;
+    margin-top: 25px;
+}
+
+.hero-2{
+    display: flex;
+}
+
+.hero-h5{
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 131px;
+    margin-top: 15px;
+}
+
+.hero-2-btn{
+    color: #01BAB3;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.hero-3{
+    display: flex;
+    margin-top: 50px;
+}
+
+.input-name{
+    display: inline-block;
+    margin-left: 35px;
+}
+
+#yourname{
+    width: 200px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    padding-left: 10px;
+}
+
+.yourname{
+    color: #444150;
+        font-family: Segoe UI;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+}
+
+.hero-znachok{
+    color: var(--01-bab-3, #01BAB3);
+        font-family: Segoe UI;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+}
+
+.input-surname{
+    display: inline-block;
+}
+
+#yoursurname{
+    width: 200px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    padding-left: 10px;
+}
+
+.yoursurname {
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.hero-4{
+    margin-top: 24px;
+}
+
+.input-date{
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.yourbirthday{
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#birthday{
+    width: 416px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    padding-left: 10px;
+}
+
+.hero-radio-box{
+    display: flex;
+    margin-top: 24px;
+}
+
+.gender-box{
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.female{
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.gender-box-1{
+    display: flex;
+    width: 200px;
+    height: 44px;
+    border: 1px solid #01BAB3;
+    border-radius: 5px;
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px;
+    gap: 15px;
+}
+
+#female{
+    stroke-width: 2px;
+    stroke: var(--01-bab-3, #01BAB3);
+    fill: var(--01-bab-3, #01BAB3);
+}
+
+.gender-box-2 {
+    display: flex;
+    width: 200px;
+    height: 44px;
+    border: 1px solid #01BAB3;
+    border-radius: 5px;
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px;
+    gap: 15px;
+    margin-left: 218px;
+    margin-top: -43.5px;
+}
+
+.hero-5{
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 35px;
+}
+
+.hero-skype{
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#skype{
+    width: 416px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    padding-left: 10px;
+}
+
+.hero-6 {
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 35px;
+}
+
+.hero-promo {
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#promo {
+    width: 416px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    padding-left: 10px;
+}
+
+.hero-cont{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.continue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #01BAB3;
+    border-radius: 4px;
+    background: #01BAB3;
+    width: 418px;
+    height: 44px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-p{
+    color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: -40px;
+    margin-left: -10px;
+}

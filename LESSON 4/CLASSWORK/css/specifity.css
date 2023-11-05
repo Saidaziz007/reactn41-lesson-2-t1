@@ -1,0 +1,20 @@
+/* specifity / priority */
+
+#title {
+  font-size: 50px;
+  color: green;
+}
+
+.title {
+  font-size: 60px;
+  color: blue !important;
+}
+
+/* h1 {
+  color: red;
+} */
+
+h1 {
+  font-size: 70px !important;
+  color: red !important;
+}

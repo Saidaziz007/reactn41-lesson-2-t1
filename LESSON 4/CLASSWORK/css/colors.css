@@ -1,0 +1,48 @@
+.rgb {
+  color: rgb(100, 150, 200);
+}
+
+.rgba {
+  /* color: rgba(100, 150, 200, 1); */
+  color: rgba(100, 150, 200, 0.5);
+  /* color: rgba(100, 150, 200, 0.25); */
+  /* color: rgba(100, 150, 200, 0); */
+}
+
+.rgb-black-white {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.rgb-red-green-blue {
+  /* color: rgb(255, 0, 0); */
+  /* color: rgb(0, 255, 0); */
+  color: rgb(0, 0, 255);
+}
+
+.hex {
+  /* color: rgb(100, 150, 200); */
+  color: #6496c8;
+  /* 64 - 6 * 16 + 4 = 100;
+  96 - 9 * 16 + 6 = 150;
+  c8 - 12 * 16 + 8 = 200 */
+}
+
+.hex-alpha {
+  /* color: rgba(100, 150, 200, 0.5); */
+  color: #6496c880;
+}
+
+.hex-black-white {
+  /* color: #ffffff; */
+  color: #fff;
+  /* background-color: #000000; */
+  background-color: #000;
+}
+
+.hsl {
+  /* color: rgb(100, 150, 200); */
+  color: hsl(210, 48%, 59%);
+  /* color: hsl(210, 48%, 100%); */
+  /* color: hsl(210, 48%, 0%); */
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LESSON 4</title>
+    
+    <!-- external -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- internal -->
+    <style>
+      .internal {
+        font-size: 60px;
+        background-color: orange;
+        color: green;
+      }
+      .overriding {
+        font-size: 90px;
+        color: pink;
+        background-color: yellow;
+      }
+    </style>
+
+  </head>
+  <body>
+    <!-- inline -->
+    <h1 class="inline" style="color: red; text-align: center; font-size: 50px;">Inline</h1>
+    <h1 class="internal">Inline</h1>
+    <h1 class="external">External</h1>
+    <h1 class="overriding" style="color: white; background-color: black; font-size: 100px;">Overriding</h1>
+  </body>
+</html>
